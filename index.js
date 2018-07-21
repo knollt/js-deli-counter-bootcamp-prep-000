@@ -31,7 +31,7 @@ function currentLine (line) {
     for (let i = 0; i < line.length; i++){
       lineNumber += (i + 1) + ". " + line[i] + ', '
     }
-    
+    lineNumber = lineNumber.replace(/,\s*$/, "")
     return `The line is currently: ${lineNumber}`
   }  
 }

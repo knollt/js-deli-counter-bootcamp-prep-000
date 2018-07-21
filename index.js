@@ -3,11 +3,12 @@ let katzDeli = []
 function takeANumber (katzDeli, name){
 // person take # & put at end of line for katzDeli
   katzDeli.push(name)
-  
+// return line position  
   return "Welcome, " + name + ". You are number " + katzDeli.length + " in line."
 }
 
 function nowServing (line){
+
   if(line.length === 0){
     return "There is nobody waiting to be served!"
   } else {

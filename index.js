@@ -32,6 +32,6 @@ function currentLine (line) {
       lineNumber += (i + 1) + ". " + line[i]
     }
     finalLine = lineNumber.join(", ")
-    return "The line is currently: " + finalLine
+    return "The line is currently: " + ${finalLine}
   }  
 }

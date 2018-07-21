@@ -8,10 +8,12 @@ function takeANumber (katzDeli, name){
 }
 
 function nowServing (line){
-
+// nobody in line
   if(line.length === 0){
     return "There is nobody waiting to be served!"
-  } else {
+  }
+    
+  else {
     let name = line[0]
     line.splice(0,1)
     return "Currently serving " + name + "."

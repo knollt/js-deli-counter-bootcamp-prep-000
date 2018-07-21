@@ -26,7 +26,7 @@ function currentLine (line) {
   if (line.length === 0){
     return "The line is currently empty."
   } 
-  
+// returns the current line => # and name  
   else {
     for (let i = 0; i < line.length; i++){
       lineNumber += (i + 1) + ". " + line[i] + ', '

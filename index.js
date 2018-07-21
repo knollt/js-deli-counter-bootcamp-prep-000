@@ -29,7 +29,7 @@ function currentLine (line) {
     return "The line is currently empty."
   } else {
     for (let i = 0; i < line.length; i++){
-      lineNumber += (i + 1) + ". " + line[i]
+      lineNumber += (i + 1) + ". " + line[i] + ', '
     }
     
     return "The line is currently: " + ${lineNumber}

@@ -12,10 +12,10 @@ function nowServing (line){
   if(line.length === 0){
     return "There is nobody waiting to be served!"
   }
-    
+// return first person in line and remove from line    
   else {
-    let name = line[0]
-    line.splice(0,1)
+    let name = line[0]  // first person
+    line.splice(0,1) // 
     return "Currently serving " + name + "."
   }
 }

@@ -15,7 +15,7 @@ function nowServing (line){
 // return first person in line and remove from line    
   else {
     let name = line[0]  // first person
-    line.splice(0,1) // 
+    line.splice(0,1) // remove name from line
     return "Currently serving " + name + "."
   }
 }

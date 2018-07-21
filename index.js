@@ -1,17 +1,11 @@
 let katzDeli = []
 
 function takeANumber (katzDeli, name){
-  // accept current line of people + personName
-  // return position in line
   katzDeli.push(name)
-  
   return "Welcome, " + name + ". You are number " + katzDeli.length + " in line."
-  
 }
 
 function nowServing (line){
-  // return first person etc
-  // nobody = "There is nobody to be served"
   if(line.length === 0){
     return "There is nobody waiting to be served!"
   } else {
@@ -22,8 +16,6 @@ function nowServing (line){
 }
 
 function currentLine (line) {
-  // returns line position
-  // empty = "The line is currently empty"
   let lineNumber = []
   if (line.length === 0){
     return "The line is currently empty."

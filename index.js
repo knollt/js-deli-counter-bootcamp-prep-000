@@ -1,7 +1,9 @@
 let katzDeli = []
 
 function takeANumber (katzDeli, name){
+// person take # & put at end of line for katzDeli
   katzDeli.push(name)
+  
   return "Welcome, " + name + ". You are number " + katzDeli.length + " in line."
 }
 
